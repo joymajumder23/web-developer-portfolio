@@ -49,9 +49,9 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -180,27 +180,54 @@ main section {
     margin-bottom: 10px;
 }
 
-.resume-item-inst{
+.resume-item-inst {
     color: #757575;
     font-size: 16px;
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
 .resume-des {
     color: #757575;
     font-size: 16px;
 }
-.resume-column > hr{
+
+.resume-column>hr {
     margin-bottom: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer styles */
-footer{
+footer {
     display: flex;
-background: #FFF8F3;
-padding: 130px 230px;
-margin-top: 113px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+footer a {
+    margin-left: 25px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: #757575;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    width: 100%;
 }
